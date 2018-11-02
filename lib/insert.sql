@@ -16,3 +16,9 @@ INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES
 INSERT INTO subgenres (id, name) VALUES (1, 'medieval'), (2, 'future');
 
 INSERT INTO authors (id, name) VALUES (1, 'George R.R. Martin'), (2, 'NOT Ernest Cline');
+
+INSERT INTO character_books (id, character_id, book_id) VALUES
+(1, 1, 2), (2, 1, 3), (3, 1, 4), (4, 1, 5),
+(5, 2, 2), (6, 2, 3), (7, 2, 4), (8, 2, 5),
+(9, 3, 5), (10, 3, 6), (11, 3, 4), (12, 3, 3),
+(13, 4, 2), (14, 4, 6), (15, 4, 4), (16, 4, 3);
