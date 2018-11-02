@@ -14,3 +14,5 @@ INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES
 (8, 'David Bowie', 'UNDER PRESSURE', 'GOD', 2, 2);
 
 INSERT INTO subgenres (id, name) VALUES (1, 'medieval'), (2, 'future');
+
+INSERT INTO authors (id, name) VALUES (1, 'George R.R. Martin'), (2, 'NOT Ernest Cline');
